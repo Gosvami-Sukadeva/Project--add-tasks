@@ -7,7 +7,7 @@ const taskNumber = document.querySelector('h1 span');
 const listItems = document.getElementsByClassName('task');
 const input = document.querySelector('input');
 const search = document.getElementById('search');
-const liElements = document.querySelectorAll('li');
+
 
 const searchTask = (e) => {
     const searchText = e.target.value.toLowerCase();
